@@ -81,7 +81,7 @@ module Jekyll
 
       # see https://github.com/bdewey/org-ruby/blob/master/lib/org-ruby/parser.rb
       def parser_options
-        org_config.fetch("parser_options", { markup_file: 'html.tags.yml' })
+        org_config.fetch("parser_options", { markup_file: 'html.tags.yml', generate_heading_id: true })
       end
 
       def assign_setting(key, value, settings)

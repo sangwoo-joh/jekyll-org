@@ -2,7 +2,7 @@ source "http://rubygems.org"
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
-gem 'org-ruby' , '>= 0.9.12'
+gem 'org-ruby', git: 'git://github.com/sangwoo-joh/org-ruby.git', branch: 'generate-heading-id'
 gem 'jekyll', '>= 3.5.0'
 gem 'json', github: 'flori/json', branch: 'v1.8'
 
